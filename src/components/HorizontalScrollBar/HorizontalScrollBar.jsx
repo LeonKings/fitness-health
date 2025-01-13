@@ -1,8 +1,8 @@
 import { Box } from "@mui/material";
 import React from "react";
-import { BodyPart } from "../../components";
+import { BodyPart, ExerciseCard } from "../../components";
 
-const HorizontalScrollBar = ({ data, bodyPart, setBodyPart }) => {
+const HorizontalScrollBar = ({ data, bodyParts, setBodyPart, bodyPart }) => {
   return (
     <div className="overflow">
       {data.map((item) => (
@@ -12,7 +12,15 @@ const HorizontalScrollBar = ({ data, bodyPart, setBodyPart }) => {
           title={item.id || item}
           m={"0 40px"}
         >
-          <BodyPart item={item} bodyPart={bodyPart} setBodyPart={setBodyPart} />
+          {bodyParts ? (
+            <BodyPart
+              item={item}
+              setBodyPart={setBodyPart}
+              bodyPart={bodyPart}
+            />
+          ) : (
+            <ExerciseCard exercise={item} />
+          )}
         </Box>
       ))}
     </div>

@@ -1,46 +1,47 @@
-import { Button, Stack, Typography } from "@mui/material";
-import React from "react";
-import { Link } from "react-router-dom";
-import BodyPart from "../BodyPart/BodyPart";
+import { Button, Stack, Typography } from '@mui/material';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import BodyPart from '../BodyPart/BodyPart';
 
 const ExerciseCard = ({ exercise }) => {
+  
   return (
-    <Link className="exercise-card" to={"/exercise/${exercise.id}"}>
+    <Link className="exercise-card" to={`/exercise/${exercise.id}`}>
       <img src={exercise.gifUrl} alt={exercise.name} loading="lazy" />
-      <Stack direction={"row"}>
+      <Stack direction={'row'}>
         <Button
           sx={{
-            m: "21px",
-            color: "#fff",
-            background: "#ffa9a9",
-            fontSize: "14px",
-            borderRadius: "20px",
-            textTransform: "capitalize",
+            m: '21px',
+            color: '#fff',
+            background: '#ffa9a9',
+            fontSize: '14px',
+            borderRadius: '20px',
+            textTransform: 'capitalize',
           }}
         >
           {exercise.bodyPart}
         </Button>
         <Button
           sx={{
-            m: "21px",
-            color: "#fff",
-            background: "#ffa9a9",
-            fontSize: "14px",
-            borderRadius: "20px",
-            textTransform: "capitalize",
+            m: '21px',
+            color: '#fff',
+            background: '#ffa9a9',
+            fontSize: '14px',
+            borderRadius: '20px',
+            textTransform: 'capitalize',
           }}
         >
           {exercise.target}
         </Button>
       </Stack>
       <Typography
-        ml={"21px"}
+        ml={'21px'}
         color="#000"
-        fontWeight={"bold"}
-        mt={"11px"}
-        pb={"10px"}
-        textTransform={"capitalize"}
-        fontSize={"22px"}
+        fontWeight={'bold'}
+        mt={'11px'}
+        pb={'10px'}
+        textTransform={'capitalize'}
+        fontSize={'22px'}
       >
         {exercise.name}
       </Typography>

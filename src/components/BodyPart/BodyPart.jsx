@@ -26,7 +26,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => {
       <img
         src={images.gym}
         alt="dumbbell"
-        style={{ width: "40px", height: "40px" }}
+        style={{ width: "120px", height: "120px" }}
       />
       <Typography
         fontSize={"24px"}
