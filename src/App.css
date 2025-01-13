@@ -79,7 +79,20 @@ body {
 .exercise-card img {
   height: 326px;
 }
+.overflow {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  overflow-y: hidden;
+  height: 100%;
+}
 
+.overflow::-webkit-scrollbar {
+  background-color: #f1f1f1;
+}
 .bodyPart-card {
   transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
