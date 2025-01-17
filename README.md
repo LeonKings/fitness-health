@@ -1,4 +1,4 @@
-# Cafe Web Landing Page
+# Fitness Exercise
 
 This is a self-created project. Using React.js, Material UI, Rapid API
 
