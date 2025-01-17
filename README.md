@@ -1,6 +1,6 @@
 # Cafe Web Landing Page
 
-This is a self-created project. Using React.js, Material UI, Rapdi API
+This is a self-created project. Using React.js, Material UI, Rapid API
 
 ## Home Section
 <div align="center">
