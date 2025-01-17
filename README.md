@@ -21,7 +21,7 @@ This is a self-created project. Using React.js, Material UI, Rapdi API
    <br />
       <img src="https://github.com/LeonKings/fitness-health/blob/master/src/assets/read/type2.png" alt="Project Banner">
   <br />
-  <img src="https://github.com/LeonKings/fitness-health/blob/master/src/assets/read/exe2.png" alt="Project Banner">
+  <img src="https://github.com/LeonKings/fitness-health/blob/master/src/assets/read/exer2.png" alt="Project Banner">
   <br />
   Category and Exercise Chest
 </div>
