@@ -29,7 +29,7 @@ This is a self-created project. Using React.js, Material UI, Rapdi API
 ## Exercise Detail Section
 <div align="center">
   <br />
-      <img src="https://github.com/LeonKings/cafe-landing-web/blob/main/src/assets/readme/exercise.png" alt="Project Banner">
+      <img src="https://github.com/LeonKings/fitness-health/blob/master/src/assets/read/exercise.png" alt="Project Banner">
   <br />
   Exercise Detail
 </div>
@@ -37,7 +37,7 @@ This is a self-created project. Using React.js, Material UI, Rapdi API
 ## Video Section
 <div align="center">
   <br />
-      <img src="https://github.com/LeonKings/cafe-landing-web/blob/main/src/assets/readme/vid.png" alt="Project Banner">
+      <img src="https://github.com/LeonKings/fitness-health/blob/master/src/assets/read/vid.png" alt="Project Banner">
   <br />
   Show the video of the exercise
 </div>
@@ -45,7 +45,7 @@ This is a self-created project. Using React.js, Material UI, Rapdi API
 ## Muscle Section
 <div align="center">
   <br />
-      <img src="https://github.com/LeonKings/cafe-landing-web/blob/main/src/assets/readme/mus.png" alt="Project Banner">
+      <img src="https://github.com/LeonKings/fitness-health/blob/master/src/assets/read/mus.png" alt="Project Banner">
   <br />
   Show the exercise using similar muscle
 </div>
@@ -53,7 +53,7 @@ This is a self-created project. Using React.js, Material UI, Rapdi API
 ## Equipment Section
 <div align="center">
   <br />
-      <img src="https://github.com/LeonKings/cafe-landing-web/blob/main/src/assets/readme/equip.png" alt="Project Banner">
+      <img src="https://github.com/LeonKings/fitness-health/blob/master/src/assets/read/equip.png" alt="Project Banner">
   <br />
   Show the exercise using similar equipment
 </div>
